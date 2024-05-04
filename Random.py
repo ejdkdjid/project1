@@ -5,8 +5,6 @@ from kivy.uix.label import Label
 from kivy.uix.button import Button
 import random
 
-kivy.require('1.9.1')
-
 class MyRoot(BoxLayout):
     def __init__(self):
         super(MyRoot, self).__init__()
